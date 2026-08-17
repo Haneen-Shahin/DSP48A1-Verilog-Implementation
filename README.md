@@ -77,23 +77,28 @@ The DSP48A1 block architecture consists of four primary processing units and par
 ├── 🙈 .gitignore[cite: 2]
 └── 📄 README.md[cite: 2]
 ---
-##🧪 Simulation & Verification
-The design was verified using a self-checking testbench on Mentor Graphics QuestaSim covering corner cases, arithmetic operations, pipelined timing, and resets[cite: 2].
 
-💻 Running Simulation via QuestaSim:
+## 🧪 Simulation & Verification
+
+The design was verified using a self-checking testbench on **Mentor Graphics QuestaSim** covering corner cases, arithmetic operations, pipelined timing, and resets.
+
+### 💻 Running Simulation via QuestaSim:
+
+```bash
 vsim -do Code/Script/run.do
 
-🛠️ Synthesis & Implementation Results
+## 🛠️ Synthesis & Implementation Results
 
-⚙️ Tool: AMD Xilinx Vivado Design Suite[cite: 2]
-🎯Target Device: xc7a200tffg1156-3 / xc7a35tcpg236-1[cite: 1, 2]
-⏱️ Clock Frequency: $100\text{ MHz}$ ($T = 10.0\text{ ns}$)[cite: 2]
-✅ Timing Slack: Setup & Hold slack met with $0$ failing endpoints[cite: 2]
-🔍 DRC / Linting: Passed with $0$ Critical Warnings and $0$ Errors[cite: 2]
+- ⚙️ **Tool:** AMD Xilinx Vivado Design Suite
+- 🎯 **Target Device:** xc7a200tffg1156-3 / xc7a35tcpg236-1
+- ⏱️ **Clock Frequency:** 100 MHz (T = 10.0 ns)
+- ✅ **Timing Slack:** Setup & Hold slack met with 0 failing endpoints
+- 🔍 **DRC / Linting:** Passed with 0 Critical Warnings and 0 Errors
 
-👩‍💻 Author
-Haneen Fady Shahin
+---
 
-[cite: 1]
+## 👩‍💻 Author
 
-🤝 Note: Feel free to use, modify, or integrate any part of this design and documentation for your own research, study, or projects!
+**Haneen Fady Shahin**  
+
+> 🤝 **Note:** Feel free to use, modify, or integrate any part of this design and documentation for your own research, study, or projects!
