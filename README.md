@@ -86,7 +86,8 @@ The design was verified using a self-checking testbench on **Mentor Graphics Que
 
 ```bash
 vsim -do Code/Script/run.do
-
+---
+```
 ## 🛠️ Synthesis & Implementation Results
 
 - ⚙️ **Tool:** AMD Xilinx Vivado Design Suite
@@ -96,7 +97,7 @@ vsim -do Code/Script/run.do
 - 🔍 **DRC / Linting:** Passed with 0 Critical Warnings and 0 Errors
 
 ---
-
+```
 ## 👩‍💻 Author
 
 **Haneen Fady Shahin**  
