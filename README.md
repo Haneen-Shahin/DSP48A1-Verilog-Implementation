@@ -84,10 +84,12 @@ The design was verified using a self-checking testbench on **Mentor Graphics Que
 
 ### 💻 Running Simulation via QuestaSim:
 
-```bash
-vsim -do Code/Script/run.do
----
+Bash
 ```
+vsim -do Code/Script/run.do
+
+```
+---
 ## 🛠️ Synthesis & Implementation Results
 
 - ⚙️ **Tool:** AMD Xilinx Vivado Design Suite
@@ -95,9 +97,9 @@ vsim -do Code/Script/run.do
 - ⏱️ **Clock Frequency:** 100 MHz (T = 10.0 ns)
 - ✅ **Timing Slack:** Setup & Hold slack met with 0 failing endpoints
 - 🔍 **DRC / Linting:** Passed with 0 Critical Warnings and 0 Errors
-
----
+  
 ```
+---
 ## 👩‍💻 Author
 
 **Haneen Fady Shahin**  
