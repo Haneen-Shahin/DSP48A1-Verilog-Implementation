@@ -77,7 +77,7 @@ The DSP48A1 block architecture consists of four primary processing units and par
 ├── 🙈 .gitignore[cite: 2]
 └── 📄 README.md[cite: 2]
 ---
-
+```
 ## 🧪 Simulation & Verification
 
 The design was verified using a self-checking testbench on **Mentor Graphics QuestaSim** covering corner cases, arithmetic operations, pipelined timing, and resets.
