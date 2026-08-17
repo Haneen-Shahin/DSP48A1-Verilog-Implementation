@@ -60,4 +60,4 @@ The datapath incorporates parameterized `register` instances configured by gener
 
 * **Post-Adder / Subtractor Stage:**
   * `P_alu[48:0] = (OPMODE_reg[7]) ? (Z_out - (X_out + CIN)) : (X_out + Z_out + CIN)`
-  * `P_pre = P_alu[47:0]`[cite: 2]
+  * `P_pre = P_alu[47:0]`
