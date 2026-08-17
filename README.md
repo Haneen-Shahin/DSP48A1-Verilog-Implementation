@@ -86,16 +86,17 @@ DSP48A1-Verilog-Implementation/
 └── 📄 README.md
 ```
 ---
-```
+
 ## 🧪 Simulation & Verification
 
 The design was verified using a self-checking testbench in **QuestaSim**, covering arithmetic operations, corner cases, pipeline timing, and reset behavior.
-```
+
 ---
-```
+
 ### 💻 Running Simulation
 
-```bash
+Bash
+```
 vsim -do Code/Script/run_DSP.do
 ```
 ---
@@ -104,22 +105,4 @@ vsim -do Code/Script/run_DSP.do
 **Haneen Fady Shahin**  
 
 > 🤝 **Note:** Feel free to use, modify, or integrate any part of this design and documentation for your own research, study, or projects!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
